@@ -1,0 +1,538 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+.nav {
+    display: flex;
+    background-color: rgb(218, 51, 51);
+    color: white;
+    justify-content: space-around;
+    line-height: 35px;
+
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.facebook {
+    background-image: url("Images/facebook.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    filter: invert(100%);
+}
+
+.twitter {
+    background-image: url("Images/twitter.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    filter: invert(100%);
+}
+
+.instagram {
+    background-image: url("Images/instagram.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    filter: invert(100%);
+}
+
+.locate {
+    background-image: url("Images/location.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    filter: invert(100%);
+
+}
+
+.store {
+    display: flex;
+
+}
+.shapes{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    background-image: url("https://www.kushals.com/cdn/shop/files/logo.svg?v=1694091307&width=200");
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 20px;
+    /* border: 2px solid rgb(219, 218, 218); */
+    margin-left: 500px;
+    gap: 0.5vw;
+
+}
+
+.img input {
+    border: 2px solid rgb(219, 218, 218);
+    background-image: url(Images/download.svg);
+    background-repeat: no-repeat;
+    background-position: 112px center;
+}
+.heart {
+    background-image: url("Images/heart.png");
+    height: 28px;
+    width: 30px;
+    background-size: cover;
+}
+
+.signup {
+    background-image: url("Images/follower.png");
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+
+.addtocart {
+    background-image: url("Images/add-to-cart.png");
+    height: 28px;
+    width: 30px;
+    background-size: cover;
+}
+.mainnav ul {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+    border: 1px solid rgb(233, 228, 228);
+    height: 50px;
+    align-items: center;
+}
+
+.container {
+    
+    animation-name: changeBackground;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    /* animation-timing-function: ease-in; */
+    animation-iteration-count: infinite;
+    margin-top: 189px;
+}
+
+@keyframes changeBackground {
+    0% {
+        background-image: url("https://www.kushals.com/cdn/shop/files/1_24_a4416e43-d4be-42b0-98a4-3de1dd79117c.jpg?v=1712134545&width=1200");
+    }
+    25%{
+        background-image: url("https://www.kushals.com/cdn/shop/files/5_50a2be0a-b645-4dde-a9cf-a6bd54bee09b.jpg?v=1713551612&width=1200");
+    }
+    50%{
+        background-image: url("https://www.kushals.com/cdn/shop/files/5_50a2be0a-b645-4dde-a9cf-a6bd54bee09b.jpg?v=1713551612&width=1200");
+    }
+    100% {
+        background-image: url("https://www.kushals.com/cdn/shop/files/desktop_3_00928800-4c69-466f-8831-577127bdd994.jpg?v=1713939518&width=1200");
+    }
+}
+.cod{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(248, 250, 252);
+    height: 235px;
+    align-items: center;
+    margin-top: 25px;
+}
+.freeshipping{
+    background-image: url("Images/Trust-SVG_9ccd55a7-9769-4184-8ad7-88367413b64c.svg");
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+.customers{
+    background-image: url("Images/COD-SVG_8bd257d3-8d3f-4ad0-a9b7-28fe5942d2c2.svg") ;
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.return{
+    background-image: url("Images/Free-Shipping-SVG_a637e216-9b53-4aff-a893-fd4171199058.svg");
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    
+}
+
+.cash{
+    background-image: url("Images/15-Day-Return-SVG.svg");
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.cod p {
+    margin-top: 100px;
+}
+
+.main{
+    margin-top: 37px;
+    background-color: rgb(245, 227, 230);
+    
+}
+.main>p{
+    font-size: 30px;
+}
+
+.main pre{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main span{
+    background-color: green;
+    font-style: italic;
+}
+.bangles{
+    display: flex;
+    justify-content: space-around;
+}
+ .bangle1{
+    background-image: url("https://www.kushals.com/cdn/shop/files/temple-chain-oxidised-gold-silver-temple-chain-150917-36462227423388.jpg?v=169339287000&width=267");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.bangle2{
+    background-image: url("https://www.kushals.com/cdn/shop/files/temple-chain-oxidised-gold-silver-temple-chain-150917-36462227423388.jpg?v=169339287000&width=267");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.bangle3{
+    background-image: url("https://www.kushals.com/cdn/shop/files/temple-chain-gold-silver-temple-chain-132308-37666632237212.jpg?v=171009855400&width=267");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.bangle4{
+    background-image: url("https://www.kushals.com/cdn/shop/files/temple-chain-gold-silver-temple-chain-163617-37966898757788.jpg?v=171223390100&width=267");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.discount {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+    
+}
+.imge{
+    margin-top: 50px;
+    
+}
+.discount>button{
+    background:none;
+    border:none;
+}
+#img1{
+    background-image: url("https://www.kushals.com/cdn/shop/files/1_22_2df36c52-a815-4792-86e6-72c609814c62.jpg?v=1709125384&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#img2{
+    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_6370afa6-00d6-494c-b3f4-7b9b6a0f92af.jpg?v=1709126002&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#img3{
+    background-image: url("https://www.kushals.com/cdn/shop/files/3_13_23151188-e5ba-4066-8b1d-faf57933c7f4.jpg?v=1709126145&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#img4{
+    background-image: url("https://www.kushals.com/cdn/shop/files/4_6_9e9d87fc-5411-4305-9ba1-98b9fa6b7bf9.jpg?v=1709126189&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#img5{
+    background-image: url("https://www.kushals.com/cdn/shop/files/1_22_b1288382-d832-49db-b574-8cb2ec7e5aa3.jpg?v=1709126290&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+
+#img6{
+    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_9e34b77f-b4a9-4499-9114-d7851ecbbf05.jpg?v=1709126350&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#img7{
+    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_9e34b77f-b4a9-4499-9114-d7851ecbbf05.jpg?v=1709126350&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#img8{
+    background-image: url("Images/4_6_9e9d87fc-5411-4305-9ba1-98b9fa6b7bf9.jpg");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+
+#img9{
+    background-image: url("Images/3_13_340ca4b4-0a25-432e-9360-d021cdd3326b.jpg");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+
+
+
+
+
+.dazzling{
+    margin-top: 37px;
+    background-color: rgb(245, 227, 230);
+    
+}
+.dazzling>p{
+    font-size: 30px;
+}
+
+.dazzling pre{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dazzling span{
+    background-color: green;
+    font-style: italic;
+}
+.wear{
+    display: flex;
+    justify-content: space-around;
+}
+ .wear1{
+    background-image: url("https://www.kushals.com/cdn/shop/files/zircon-kada-white-gold-zircon-kada-173140-38183577190556.jpg?v=171385874500&width=267");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.wear2{
+    background-image: url("https://www.kushals.com/cdn/shop/files/zircon-necklace-ruby-gold-zircon-necklace-170981-38183576174748.jpg?v=171385858400&width=267");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.wear3{
+    background-image: url("https://www.kushals.com/cdn/shop/files/zircon-kada-white-gold-zircon-kada-173144-38183574143132.jpg?v=171385822100&width=267");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.wear4{
+    background-image: url("https://www.kushals.com/cdn/shop/files/zircon-necklace-ruby-gold-zircon-necklace-170326-38183568441500.jpg?v=171386037300&width=267");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+
+
+.discount2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.imges{
+    margin-top: 50px;
+    
+}
+.discount>button{
+    background:none;
+    border:none;
+}
+#imge1{
+    background-image: url("https://www.kushals.com/cdn/shop/files/1_22_1e131b5c-c2c9-4e9b-9f76-bb5bdbc7d55a.jpg?v=1709126616&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#imge2{
+    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_095157cf-a08c-4db1-b331-d2be3046f130.jpg?v=1709126690&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#imge3{
+    background-image: url("https://www.kushals.com/cdn/shop/files/3_13_fc9c1aaf-05ea-4bd6-885f-934317ba7e45.jpg?v=1709126735&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#imge4{
+    background-image: url("https://www.kushals.com/cdn/shop/files/4_6_ecc48845-6783-4d57-90a9-4659ba07add5.jpg?v=1709126771&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#imge5{
+    background-image: url("https://www.kushals.com/cdn/shop/files/1_22_ea489556-116c-4a9d-9baf-ec4be4eb936b.jpg?v=1709126830&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+
+#imge6{
+    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_89ba2eaa-b7fb-4946-b6ea-75e2c33e4d61.jpg?v=1709126872&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#imge7{
+    background-image: url("https://www.kushals.com/cdn/shop/files/3_13_9b109764-36ab-4608-84ba-b04fd3824661.jpg?v=1709126929&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+#imge8{
+    background-image: url("https://www.kushals.com/cdn/shop/files/4_6_37d450eb-f9ae-4914-aa66-24588b5c3135.jpg?v=1709126991&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+
+#imge9{
+    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_095157cf-a08c-4db1-b331-d2be3046f130.jpg?v=1709126690&width=312");
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+}
+
+
+
+.stars{
+    margin-top: 37px;
+    background-color: rgb(245, 227, 230);
+    height: 400px;
+    
+}
+.stars>p{
+    font-size: 30px;
+}
+
+.stars pre{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.stars span{
+    background-color: green;
+    font-style: italic;
+}
+.star{
+    display: flex;
+    margin-top: 35px;
+    /* justify-content: space-around; */
+}
+ .star1{
+    background-image: url("https://www.kushals.com/cdn/shop/files/01__1.jpg?v=168855769200&width=262");
+    height: 230px;
+    width: 224px;
+    background-size: cover;
+}
+.star2{
+    background-image: url("https://www.kushals.com/cdn/shop/files/mrunal_thakur.jpg?v=168447917500&width=262");
+    height: 230px;
+    width: 224px;
+    background-size: cover;
+}
+.star3{
+    background-image: url("https://www.kushals.com/cdn/shop/files/03__1.jpg?v=168855804500&width=262");
+    height: 230px;
+    width: 224px;
+    background-size: cover;
+}
+.star4{
+    background-image: url("https://www.kushals.com/cdn/shop/files/08__1.jpg?v=168855909500&width=262");
+    height: 230px;
+    width: 224px;
+    background-size: cover;
+}
+.star5{
+    background-image: url("https://www.kushals.com/cdn/shop/files/06__1.jpg?v=168855888800&width=262");
+    height: 230px;
+    width: 224px;
+    background-size: cover;
+}
+.star6{
+    background-image: url("https://www.kushals.com/cdn/shop/files/sunny1.jpg?v=168447892400&width=262");
+    height: 230px;
+    width: 224px;
+    background-size: cover;
+}
+
+
+
+.star p{
+    position: relative;
+    margin-left: 15px;
+    top: 150px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logoo {
+    display: flex;
+    background-image: url("Images/logo_320x.svg");
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 200px;
+    
+}
+.logoo>p,pre{
+    position: relative;
+    top: 60px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.footer>ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
