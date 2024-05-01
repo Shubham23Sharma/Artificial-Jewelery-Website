@@ -77,7 +77,7 @@ ul {
 
 .logo {
     display: flex;
-    background-image: url("https://www.kushals.com/cdn/shop/files/logo.svg?v=1694091307&width=200");
+    background-image: url("Images/logo.svg");
     background-repeat: no-repeat;
     justify-content: space-evenly;
     margin-top: 25px;
@@ -144,16 +144,16 @@ ul {
 
 @keyframes changeBackground {
     0% {
-        background-image: url("https://www.kushals.com/cdn/shop/files/1_24_a4416e43-d4be-42b0-98a4-3de1dd79117c.jpg?v=1712134545&width=1200");
+        background-image: url("Images/desktop_1137ce08-c2d1-45d4-9c4f-fe2481824d83\ \(2\).jpg");
     }
     25%{
-        background-image: url("https://www.kushals.com/cdn/shop/files/5_50a2be0a-b645-4dde-a9cf-a6bd54bee09b.jpg?v=1713551612&width=1200");
+        background-image: url("Images/desktop_1_1ff9a2ed-9bc1-4807-89ed-22266f547f2a.jpg");
     }
     50%{
-        background-image: url("https://www.kushals.com/cdn/shop/files/5_50a2be0a-b645-4dde-a9cf-a6bd54bee09b.jpg?v=1713551612&width=1200");
+        background-image: url("Images/desktop_6.jpg");
     }
     100% {
-        background-image: url("https://www.kushals.com/cdn/shop/files/desktop_3_00928800-4c69-466f-8831-577127bdd994.jpg?v=1713939518&width=1200");
+        background-image: url("Images/desktop_b493ff6a-4cd6-417d-b7f7-6365579b1558.jpg");
     }
 }
 .cod{
@@ -218,25 +218,25 @@ ul {
     justify-content: space-around;
 }
  .bangle1{
-    background-image: url("https://www.kushals.com/cdn/shop/files/temple-chain-oxidised-gold-silver-temple-chain-150917-36462227423388.jpg?v=169339287000&width=267");
+    background-image: url("Images/1677587730309_154308_376867_K_1024x1024.jpg");
     height: 300px;
     width: 300px;
     background-size: cover;
 }
 .bangle2{
-    background-image: url("https://www.kushals.com/cdn/shop/files/temple-chain-oxidised-gold-silver-temple-chain-150917-36462227423388.jpg?v=169339287000&width=267");
+    background-image: url("Images/1676611165116_155035_375864_K_360x.jpg");
     height: 300px;
     width: 300px;
     background-size: cover;
 }
 .bangle3{
-    background-image: url("https://www.kushals.com/cdn/shop/files/temple-chain-gold-silver-temple-chain-132308-37666632237212.jpg?v=171009855400&width=267");
+    background-image: url("Images/_bangle_151856_34908777611420_36a3e101-6aa0-47d4-9d2b-45b4bb4b3dca_1024x1024.jpg");
     height: 300px;
     width: 300px;
     background-size: cover;
 }
 .bangle4{
-    background-image: url("https://www.kushals.com/cdn/shop/files/temple-chain-gold-silver-temple-chain-163617-37966898757788.jpg?v=171223390100&width=267");
+    background-image: url("Images/antique-bangle-antique-bangle-148425-37651493486748.jpg");
     height: 300px;
     width: 300px;
     background-size: cover;
@@ -259,57 +259,57 @@ ul {
     border:none;
 }
 #img1{
-    background-image: url("https://www.kushals.com/cdn/shop/files/1_22_2df36c52-a815-4792-86e6-72c609814c62.jpg?v=1709125384&width=312");
+    background-image: url("Images/1_22.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #img2{
-    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_6370afa6-00d6-494c-b3f4-7b9b6a0f92af.jpg?v=1709126002&width=312");
+    background-image: url("Images/4_4_d373571b-f426-4edb-9880-cea1fec9c7f1.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #img3{
-    background-image: url("https://www.kushals.com/cdn/shop/files/3_13_23151188-e5ba-4066-8b1d-faf57933c7f4.jpg?v=1709126145&width=312");
+    background-image: url("Images/4_6_b89fca14-2f46-4b11-b706-4c451d7ab38c.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #img4{
-    background-image: url("https://www.kushals.com/cdn/shop/files/4_6_9e9d87fc-5411-4305-9ba1-98b9fa6b7bf9.jpg?v=1709126189&width=312");
+    background-image: url("Images/2_14.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #img5{
-    background-image: url("https://www.kushals.com/cdn/shop/files/1_22_b1288382-d832-49db-b574-8cb2ec7e5aa3.jpg?v=1709126290&width=312");
+    background-image: url("Images/3_13.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 
 #img6{
-    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_9e34b77f-b4a9-4499-9114-d7851ecbbf05.jpg?v=1709126350&width=312");
+    background-image: url("Images/3_132.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #img7{
-    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_9e34b77f-b4a9-4499-9114-d7851ecbbf05.jpg?v=1709126350&width=312");
+    background-image: url("Images/2_14_64315cf3-3b15-4820-92ba-5c3dde13ac9d.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #img8{
-    background-image: url("Images/4_6_9e9d87fc-5411-4305-9ba1-98b9fa6b7bf9.jpg");
+    background-image: url("Images/2_14_510b9249-11b3-4e74-ae7d-5e8bc363c571.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 
 #img9{
-    background-image: url("Images/3_13_340ca4b4-0a25-432e-9360-d021cdd3326b.jpg");
+    background-image: url("Images/2_14_64315cf3-3b15-4820-92ba-5c3dde13ac9d.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
@@ -341,25 +341,25 @@ ul {
     justify-content: space-around;
 }
  .wear1{
-    background-image: url("https://www.kushals.com/cdn/shop/files/zircon-kada-white-gold-zircon-kada-173140-38183577190556.jpg?v=171385874500&width=267");
+    background-image: url("Images/temple-chain-oxidised-gold-silver-temple-chain-150917-36462227423388.avif");
     height: 300px;
     width: 300px;
     background-size: cover;
 }
 .wear2{
-    background-image: url("https://www.kushals.com/cdn/shop/files/zircon-necklace-ruby-gold-zircon-necklace-170981-38183576174748.jpg?v=171385858400&width=267");
+    background-image: url("Images/temple-chain-gold-silver-temple-back-chain-161405-36300056789148.avif");
     height: 300px;
     width: 300px;
     background-size: cover;
 }
 .wear3{
-    background-image: url("https://www.kushals.com/cdn/shop/files/zircon-kada-white-gold-zircon-kada-173144-38183574143132.jpg?v=171385822100&width=267");
+    background-image: url("Images/temple-chain-gold-silver-temple-chain-132308-37666632237212.avif");
     height: 300px;
     width: 300px;
     background-size: cover;
 }
 .wear4{
-    background-image: url("https://www.kushals.com/cdn/shop/files/zircon-necklace-ruby-gold-zircon-necklace-170326-38183568441500.jpg?v=171386037300&width=267");
+    background-image: url("Images/temple-pendant-green-white-gold-silver-temple-pendant-153794-37667954098332.avif");
     height: 300px;
     width: 300px;
     background-size: cover;
@@ -383,57 +383,57 @@ ul {
     border:none;
 }
 #imge1{
-    background-image: url("https://www.kushals.com/cdn/shop/files/1_22_1e131b5c-c2c9-4e9b-9f76-bb5bdbc7d55a.jpg?v=1709126616&width=312");
+    background-image: url("Images/1_22_1e131b5c-c2c9-4e9b-9f76-bb5bdbc7d55a.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #imge2{
-    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_095157cf-a08c-4db1-b331-d2be3046f130.jpg?v=1709126690&width=312");
+    background-image: url("Images/1_22_2df36c52-a815-4792-86e6-72c609814c62.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #imge3{
-    background-image: url("https://www.kushals.com/cdn/shop/files/3_13_fc9c1aaf-05ea-4bd6-885f-934317ba7e45.jpg?v=1709126735&width=312");
+    background-image: url("Images/1_22_4d29fdcb-1130-483a-9460-b14ab691bd04.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #imge4{
-    background-image: url("https://www.kushals.com/cdn/shop/files/4_6_ecc48845-6783-4d57-90a9-4659ba07add5.jpg?v=1709126771&width=312");
+    background-image: url("Images/1_22_60d2f70c-ec1a-4be1-99a7-690b0120f5f5.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #imge5{
-    background-image: url("https://www.kushals.com/cdn/shop/files/1_22_ea489556-116c-4a9d-9baf-ec4be4eb936b.jpg?v=1709126830&width=312");
+    background-image: url("Images/1_22_4228c8ac-e0a4-4f38-8d07-46fbc92f160d.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 
 #imge6{
-    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_89ba2eaa-b7fb-4946-b6ea-75e2c33e4d61.jpg?v=1709126872&width=312");
+    background-image: url("Images/1_22_ceba0fb2-b4aa-4c84-b9ec-b304bccbdfd8.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #imge7{
-    background-image: url("https://www.kushals.com/cdn/shop/files/3_13_9b109764-36ab-4608-84ba-b04fd3824661.jpg?v=1709126929&width=312");
+    background-image: url("Images/1_22_ea489556-116c-4a9d-9baf-ec4be4eb936b.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 #imge8{
-    background-image: url("https://www.kushals.com/cdn/shop/files/4_6_37d450eb-f9ae-4914-aa66-24588b5c3135.jpg?v=1709126991&width=312");
+    background-image: url("Images/2_14_89ba2eaa-b7fb-4946-b6ea-75e2c33e4d61.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
 }
 
 #imge9{
-    background-image: url("https://www.kushals.com/cdn/shop/files/2_14_095157cf-a08c-4db1-b331-d2be3046f130.jpg?v=1709126690&width=312");
+    background-image: url("Images/2_14_94713c61-cd15-4fa5-a9bf-73cb6419e7f9.jpg");
     height: 450px;
     width: 350px;
     background-size: cover;
@@ -465,37 +465,37 @@ ul {
     /* justify-content: space-around; */
 }
  .star1{
-    background-image: url("https://www.kushals.com/cdn/shop/files/01__1.jpg?v=168855769200&width=262");
+    background-image: url("Images/deepika.jpeg");
     height: 230px;
     width: 224px;
     background-size: cover;
 }
 .star2{
-    background-image: url("https://www.kushals.com/cdn/shop/files/mrunal_thakur.jpg?v=168447917500&width=262");
+    background-image: url("Images/mrunal.jpg");
     height: 230px;
     width: 224px;
     background-size: cover;
 }
 .star3{
-    background-image: url("https://www.kushals.com/cdn/shop/files/03__1.jpg?v=168855804500&width=262");
+    background-image: url("Images/hinakhan.jpg");
     height: 230px;
     width: 224px;
     background-size: cover;
 }
 .star4{
-    background-image: url("https://www.kushals.com/cdn/shop/files/08__1.jpg?v=168855909500&width=262");
+    background-image: url("Images/Sreejita.jpg");
     height: 230px;
     width: 224px;
     background-size: cover;
 }
 .star5{
-    background-image: url("https://www.kushals.com/cdn/shop/files/06__1.jpg?v=168855888800&width=262");
+    background-image: url("Images/jaquillene.jpg");
     height: 230px;
     width: 224px;
     background-size: cover;
 }
 .star6{
-    background-image: url("https://www.kushals.com/cdn/shop/files/sunny1.jpg?v=168447892400&width=262");
+    background-image: url("Images/sunny.jpg");
     height: 230px;
     width: 224px;
     background-size: cover;
